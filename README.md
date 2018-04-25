@@ -8,7 +8,7 @@ Supose you have the floowing matrix:
         Var2   0,8     1     0,5
         Var3   0,7    0,5     1
         
-The code tanform this matrix into a table:
+The code tansform this matrix into a table:
 
          Var1  Var1   1
          Var1  Var2   0,8

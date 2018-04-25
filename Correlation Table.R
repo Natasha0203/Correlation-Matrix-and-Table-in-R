@@ -17,3 +17,4 @@ dist_cor=sqrt(2*(1-correlation$r))                      #Creates the distance co
 links=as.data.frame(as.table(dist_cor))                 #creates a table of three columns for each correlation among two variables
 colnames(links)[3]="weight"                             #Rename the third columns as "weight"
 write.csv(links, file="links.csv")                      #Save the table CSV file
+
